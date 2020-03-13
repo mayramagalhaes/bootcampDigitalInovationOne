@@ -1,65 +1,64 @@
-<! DOCTYPE>
+<! DOCTYPE html>
 
-<html>
+    <html>
+
     <head>
-        Doe Sangue!
-
+        <title> Doe Sangue!</title>
         <link rel="stylesheet" href="style.css">
-
     </head>
 
     <body>
         <header>
+            <img class="logo" src="logo.jpg" alt="DOE">
             <h2>A sua doação importa!</h2>
+            <p>Salve até 3 vidas com a sua doação</p>
+            <p>Mais de 38.000 doações são necessárias todos os dias</p>
+            <p>Apenas 1,9% da população brasileira, doa sange</p>
             <button>Quero ajudar!</button>
         </header>
 
-        <section class="form"> 
+        <section class="form">
+            <h2>Entre na lista de doadores: </h2>
+
             <form action="/" method="">
-                <input 
-                    type="text" 
-                    name="name"
-                    placeholder="Nome Completo"
-                >
+                <input type="text" name="name" placeholder="Nome Completo">
 
-                <input 
-                    type="text" 
-                    name="name"
-                    placeholder="Email"
-                >
+                <input type="text" name="name" placeholder="Email">
 
-                <input 
-                    type="text" 
-                    name="name"
-                    placeholder="Tipo Sanguíneo"
-                >
+                <input type="text" name="name" placeholder="Tipo Sanguíneo">
+
+                <button>Quero ajudar!</button>
 
             </form>
         </section>
 
         <main>
-            <h2> Últimos doadores</h2>
+            <h2> Últimos <span>doadores</span></h2>
+            <section class="donors">
 
-            <section class ="donors">  </section>
-                <div class="donors"> 
-                    <div class="blood">AB+</div>
-                    <p>Doador 1</p>
+                <div class="donor">
+                    <div class="blood"> AB+ </div>
+                    <p>Doador Um</p>
                 </div>
-                <div class="donors"> 
-                    <div class="blood">O+</div>
-                    <p>Doador 2</p>
+                <div class="donor">
+                    <div class="blood"> O+ </div>
+                    <p>Doador Dois</p>
                 </div>
-                <div class="donors"> 
-                    <div class="blood">O</div>
-                    <p>Doador 3</p>
+                <div class="donor">
+                    <div class="blood"> B+ </div>
+                    <p>Doador Três</p>
                 </div>
-                <div class="donors"> 
-                    <div class="blood">B-</div>
-                    <p>Doador 4</p>
+                <div class="donor">
+                    <div class="blood"> O- </div>
+                    <p>Doador Quatro</p>
                 </div>
+            </section>
         </main>
-        
 
-        <footer>Com amor</footer>
+
+        <footer>Com Amor!</footer>
+
+        <script src="scripts.js"></script>
     </body>
-  </html>  
+
+    </html>
